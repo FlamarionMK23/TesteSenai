@@ -6,6 +6,12 @@
 }
 
 
-.cabeçalho{
-display: 
+/* Cabeçalho */
+header {
+    background-color: var(--preto);
+    height: 70px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
