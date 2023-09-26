@@ -1,17 +1,63 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    background-size: cover;
+
 }
 
 
-/* Cabeçalho */
-header {
-    background-color: var(--preto);
-    height: 70px;
-    padding: 25px;
+.logo{
+    width: 400px;
+    height: 150px;
+}
+.cabeçalho {
+    color: black;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+a {
+    text-transform: uppercase;
+    text-decoration: none;
+     font-size: 80px;
+     color: black;
+}
+
+.eventos{
+
+}
+
+.botao{
+    color: #821B47;
+    font-size: 18px;
+}
+
+h3{
+
+font: Helvetica;
+  font-size: 18px;
+}
+
+span {
+    font: Helvetica;
+  font-size: 12px;
+}
+    
+   
+    .evento1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px #821B47;
+}
+
+
+
+
+
+
+footer{
+    text-align: center;
+    font: Open Sans ;
+    font-size: 16px;
 }
